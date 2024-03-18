@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 import 'package:qrapp/imageview.dart';
+import 'package:qrapp/profiledata.dart';
 
 class Profile extends StatefulWidget {
   const Profile({Key? key}) : super(key: key);
@@ -38,7 +39,7 @@ class _ProfileState extends State<Profile> {
                style: ElevatedButton.styleFrom(
                ),
                 onPressed: () {
-                 Navigator.push(context, MaterialPageRoute(builder: (context) => Imgview(),));
+                 Navigator.push(context, MaterialPageRoute(builder: (context) => PrflView(),));
                 },
                 child: Text('SCAN')),
           ],

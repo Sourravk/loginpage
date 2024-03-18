@@ -13,7 +13,7 @@ class _PrflViewState extends State<PrflView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.greenAccent,
       body: Center(
         child: Column(
           children: [
@@ -32,7 +32,7 @@ class _PrflViewState extends State<PrflView> {
               height: 50,
             ),
             Text(
-              'Sinan T K',
+              'Sourav k',
               style: TextStyle(fontSize: 24, color: Colors.red),
             ),
             SizedBox(
@@ -52,7 +52,7 @@ class _PrflViewState extends State<PrflView> {
                     width: 50,
                   ),
                   Text(
-                    '6238890282',
+                    '7012544817',
                     style: TextStyle(fontSize: 18, color: Colors.pink),
                   )
                 ],
@@ -75,7 +75,7 @@ class _PrflViewState extends State<PrflView> {
                     width: 50,
                   ),
                   Text(
-                    'sinantk56@gmail.com',
+                    'souravk2366@gmail.com',
                     style: TextStyle(color: Colors.pink, fontSize: 18),
                   ),
                 ],

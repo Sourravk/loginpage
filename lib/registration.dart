@@ -53,7 +53,7 @@ class _RegState extends State<Reg> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      backgroundColor: Colors.deepOrangeAccent,
+      backgroundColor: Colors.greenAccent,
       body: Center(
         child: Column(
           children: [
